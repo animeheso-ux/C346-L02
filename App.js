@@ -11,7 +11,13 @@ const Welcome = ({code,name}) => {
 
 class ModuleInfo extends React.Component {
   render() {
-    return (<Text>These are my modules this semester:</Text>)
+    return (<View>
+       <Text>These are my modules this semester:</Text>
+      <Welcome code ="C346" name="Mobile App Development" />
+      <Welcome code ="C105" name="Introduction to programming" />
+      <Welcome code ="C337" name="Immersive Technologies" />
+      <View/>
+    )
   }
 }
 
@@ -21,9 +27,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <ModuleInfo/>
-      <Welcome code ="C346" name="Mobile App Development" />
-      <Welcome code ="C105" name="Introduction to programming" />
-      <Welcome code ="C337" name="Immersive Technologies" />
+
 
 
       <StatusBar style="auto" />
