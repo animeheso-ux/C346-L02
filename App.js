@@ -16,7 +16,7 @@ class ModuleInfo extends React.Component {
       <Welcome code ="C346" name="Mobile App Development" />
       <Welcome code ="C105" name="Introduction to programming" />
       <Welcome code ="C337" name="Immersive Technologies" />
-      <View/>
+      </View>
     )
   }
 }
